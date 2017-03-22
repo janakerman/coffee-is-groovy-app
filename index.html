@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Groovy Coffee</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <div class="row">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#">Coffee is Groovy!</a>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="your-trips row">
+            <div class="col-xs-12">
+              <h2>Your trips</h2>
+              <table class="table table-striped">
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="open-trips row">
+            <div class="col-xs-12">
+              <div class="row">
+                <div class="col-xs-6">
+                  <h2>Open trips</h2>
+                </div>
+                <div class="col-xs-6">
+                  <h2 class="next-countdown text-right hidden"></h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="hidden no-open-info alert alert-info" role="alert">No open trips.</div>
+                  <table class="hidden table">
+                    <tbody>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- TODO: Change to CDN -->
+    <script src="js/bootstrap.min.js"></script>
+    <script defer src="out/bundle.js"></script>
+  </body>
+</html>
